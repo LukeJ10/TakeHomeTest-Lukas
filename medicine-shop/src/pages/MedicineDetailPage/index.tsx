@@ -1,4 +1,3 @@
-
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import MedicineDetailCard from '../../components/CardDetail/Card';
@@ -24,7 +23,7 @@ const MedicineDetailPage: React.FC = () => {
       }, [id]);
     
       if (!medicine) return <p>Loading...</p>;
-      
+
   return (
     <div>
       <MedicineDetailCard medicine={medicine} />
