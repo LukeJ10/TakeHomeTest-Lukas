@@ -1,0 +1,28 @@
+.medicine-detail-card {
+    max-width: 600px;
+    margin: 0 auto;
+    border: 1px solid black;
+    box-shadow: rgba(0, 0, 0, 0.35) 2px 2px 2px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: white;
+}
+
+.medicine-name {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.medicine-image {
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.medicine-detail-card p {
+    font-size: 1rem;
+    margin: 10px 0;
+}
